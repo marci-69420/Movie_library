@@ -57,6 +57,7 @@ public class JsonUtils {
             }
         } catch (JSONException e) {
             e.printStackTrace();
+            Toast.makeText(context, "Error filling the json file", Toast.LENGTH_LONG).show();
         }
         return movies;
     }

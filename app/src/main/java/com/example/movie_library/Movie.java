@@ -1,7 +1,7 @@
 package com.example.movie_library;
 
 public class Movie {
-    //Atributes
+    //Attributes
     private String title;
     private int year;
     private String genre;

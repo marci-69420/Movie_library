@@ -15,6 +15,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieViewHolder> {
 
     // Constructor
     public MovieAdapter(List<Movie> movies) {
+
         this.movies = movies;
     }
 
